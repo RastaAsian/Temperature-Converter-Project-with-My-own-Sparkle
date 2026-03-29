@@ -1,0 +1,81 @@
+/* Global dark theme */
+html, body,
+.ui-page,
+.ui-content,
+.ui-panel,
+.ui-body-a,
+.ui-overlay-a {
+    background: #000000 !important;
+    color: #e6e6e6 !important;
+    text-shadow: none !important;
+    font-family: Arial, sans-serif;
+}
+
+/* Header + Footer */
+[data-role="header"], 
+[data-role="footer"] {
+    background: #111;
+    border: none;
+    color: #c77dff !important;
+    text-shadow: none;
+    padding: 15px 0;
+}
+
+/* Input field */
+#tempInput {
+    background: #1a1a1d !important;
+    border: 1px solid #333 !important;
+    color: #ffffff !important;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Radio button labels */
+.ui-radio label.ui-btn {
+    background: transparent !important;
+    border: none !important;
+    color: #e6e6e6 !important;
+}
+
+/* Fieldset legend */
+fieldset legend {
+    color: #d9b3ff !important;
+    font-weight: 600;
+}
+
+/* Convert button */
+#convertBtn {
+    background: linear-gradient(135deg, #c77dff, #6a00f4);
+    color: white !important;
+    padding: 14px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+#convertBtn:hover {
+    background: linear-gradient(135deg, #e599ff, #7b1fff);
+    transform: scale(1.03);
+}
+
+/* Result text */
+#result {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #d9a6ff !important;
+    text-shadow: 0 0 6px rgba(157, 78, 221, 0.4);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    #tempInput, #convertBtn {
+        width: 100%;
+    }
+}

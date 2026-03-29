@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+
+    <!-- jQuery + jQuery Mobile -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</head>
+
+<body onload="initializePage()">
+
+<div data-role="page" id="home">
+
+    <div data-role="header">
+        <h1>Temperature Converter</h1>
+    </div>
+
+    <div data-role="content">
+
+        <label for="tempInput">Enter Temperature:</label>
+        <input type="text" id="tempInput" placeholder="e.g., 32">
+
+        <fieldset data-role="controlgroup">
+            <legend>Convert:</legend>
+            <label for="toC">Fahrenheit → Celsius</label>
+            <input type="radio" name="direction" id="toC" value="toC" checked>
+
+            <label for="toF">Celsius → Fahrenheit</label>
+            <input type="radio" name="direction" id="toF" value="toF">
+        </fieldset>
+
+        <button id="convertBtn" onclick="convertTemp()">Convert</button>
+
+        <h3 id="result"></h3>
+
+    </div>
+
+    <div data-role="footer">
+        <h4>TDMA Assignment</h4>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+Temperature Converter Web App
+
+Overview
+
+This project is a mobile‑friendly Temperature Converter built using HTML5, CSS3, JavaScript, and jQuery Mobile. The app allows users to enter a temperature value and convert it between Fahrenheit and Celsius. It includes input validation, responsive design, and dynamic DOM updates.
+
+Approach
+I followed the assignment requirements by creating:
+
+A text input field for temperature entry
+
+Radio buttons for selecting the conversion direction
+
+A Convert button that triggers JavaScript logic
+
+A result display area that updates in real time
+
+I used jQuery Mobile’s data-role structure to ensure the layout works smoothly on mobile devices.
+JavaScript handles validation, conversion formulas, and DOM updates.
+
+My Personal Spin
+Although the assignment only required basic functionality, I customized the project to reflect my own style.
+I added:
+
+A full dark‑mode theme
+
+Neon purple accents
+
+Improved readability by overriding jQuery Mobile’s default white text
+
+A more modern, polished UI that matches my personal aesthetic
+
+This made the project feel more like my work instead of a generic template, and helped me understand how to take a simple assignment and elevate it with design choices.
+
+Challenges
+Overriding jQuery Mobile’s built‑in styles so the dark theme displayed correctly
+
+Ensuring all text remained readable on a black background
+
+Keeping the layout responsive while customizing the appearance
+
+What I Learned
+How to structure a jQuery Mobile page using data-role attributes
+
+How to validate user input and update the DOM dynamically
+
+How to override framework styles and apply a custom theme
+
+How HTML, CSS, and JavaScript work together in a real project
+
+How to take a basic assignment and personalize it in a way that still meets requirements
